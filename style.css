@@ -1,0 +1,49 @@
+
+body{
+    background-color: rgb(42, 51, 81);
+}
+.header{
+    color: rgb(176, 171, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#description {
+    font-size: large;
+}
+.form {
+    background-color:  rgb(23, 32, 61);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: large;
+    margin: 2rem 25rem;
+    padding: 30px;
+    border-radius: 20px;
+}
+input, select, textarea{
+    padding: 10px;
+    background-color: rgb(40, 69, 75);
+    border: none;
+    border-radius: 5px;
+}
+textarea {
+    height: 150px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit-btn {
+ background-color: rgb(42, 51, 81);
+ color: rgb(157, 247, 130);
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}

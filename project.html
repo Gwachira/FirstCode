@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Project</title>
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Youth in Code Survey Form</h1>
+        <p id="description">We are greatful for taking part in the coding survey</p>
+    </div>
+    <form class="form" id="survey-form">
+        <div class="input">
+            <label id="name-label" for="name">Name</label>
+            <input placeholder="Type your name" id="name" name="name" type="text" required>
+        </div>
+        <div class="input">
+            <label id="email-label" for="email">Email</label>
+            <input placeholder="Enter mail" id="email" name="email" type="email" required>
+        </div>
+        <div class="input">
+            <label id="number-label" for="age">Age</label>
+            <input id="number" type="number" name="age" min="12" max="70" placeholder="Enter your age">
+        </div>
+        <div class="input">
+            <label id="select-label" for="dropdown">What is your favorite programming language</label>
+            <select placeholder="Type your name" id="dropdown" type="text" required>
+                <option disable selected value>Select one</option>
+                <option value="javascript">Javascript</option>
+                <option value="python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+            </select>
+        </div>
+        <div class="input">
+            <p>What is your competency in the programming language</p>
+            <label id="checkbox-label" for="radio">
+                <input name="user-recommend" type="radio" value="intermediate"> Intermediate
+            </label>
+            <label id="checkbox-label" for="radio">
+                <input name="user-recommend" type="radio" value="beginner"> Beginner
+            </label>  
+            <label id="checkbox-label" for="radio">
+                <input name="user-recommend" type="radio" value="professional"> Professional
+            </label>        
+        </div>
+        <div class="input">
+            <p>What is your area of specialization</p>
+            <label id="checkbox-label" for="radio">
+                <input name="user-recommend" type="radio" value="Frontend"> Frontend
+            </label>
+            <label id="checkbox-label" for="radio">
+                <input name="user-recommend" type="radio" value="Backend"> Backend
+            </label>         
+        </div>
+        <div class="input">
+            <p>How many Projects Have you completed</p>
+            <label id="checkbox-label" for="checkbox">
+                <input name="prefer" type="checkbox" value="below three"> Below three
+            </label>
+            <label id="checkbox-label" for="checkbox">
+                <input name="prefer" type="checkbox" value="Three to five"> Three to five
+            </label>  
+            <label id="checkbox-label" for="checkbox">
+                <input name="prefer" type="checkbox" value="Over five"> Over five
+            </label>        
+        </div>
+        <div class="input">
+            <p>Write a small summary of your experience of your coding journey</p>
+            <textarea placeholder="Type your summary here" id="summary" class="text-area"></textarea>
+        </div>
+        <div class="input">
+            <button id="submit" class="submit-btn" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
