@@ -13,7 +13,7 @@ body{
 }
 .form {
     background-color:  rgb(23, 32, 61);
-    color: white;
+    color: green;
     display: flex;
     flex-direction: column;
     gap: 30px;
