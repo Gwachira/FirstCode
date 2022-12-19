@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(42, 51, 88);
+    background-color: rgb(42, 51, 87);
 }
 .header{
     color: rgb(176, 171, 233);
@@ -24,7 +24,7 @@ body{
 }
 input, select, textarea{
     padding: 10px;
-    background-color: rgb(40, 69, 75);
+    background-color: rgb(40, 69, 60);
     border: none;
     border-radius: 5px;
 }
